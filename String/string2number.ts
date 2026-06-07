@@ -19,5 +19,5 @@ console.log(s2.replace (/[A-Za-z]/g,"^^^"));
 
 console.log(s2.replace(/[^]/g, "&&"));
 
-// remove special characters
-console.log(s2.replace(/[0-9A-Za-z]/g,""))
+// remove special characters  -->  ^ indicates don't remove expect this
+console.log(s2.replace(/[^0-9A-Za-z]/g , "")) 
